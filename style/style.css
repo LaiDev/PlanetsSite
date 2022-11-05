@@ -79,7 +79,8 @@ body
 display: flex;
 flex-direction: column;
 height: 100vh;
-margin: 0px 24px;
+margin: 44px 24px 0px 24px;
+
 }
 
 
@@ -90,6 +91,8 @@ margin: 0px 24px;
     text-transform: uppercase;
 }
 
+
+
 .navLinks li
 {
     display: flex;
@@ -99,10 +102,6 @@ justify-content: space-between;
 
 }
 
-.idk
-{
-    visibility: hidden;
-}
 
 .left
 {
@@ -122,12 +121,12 @@ justify-content: space-between;
 {
     text-decoration: none;
     color: white;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 25px;
+    
     letter-spacing: 1.36px;
     font-family: 'League Spartan', sans-serif;
     font-weight: bold;
-    margin: 20px 0px;
+    margin: 20px;
 }
 
 #mercury .circle
