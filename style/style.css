@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, .logo
+{
+    font-family: 'Antonio', sans-serif;
+    font-weight: 600;
+}
+
+h1
+{
+    font-size: 80px;
+    line-height: 103px;
+}
+
+h2
+{
+    font-size: 40px;
+    line-height: 52px;
+    word-spacing: -1.5;
+}
+
+h3, h4, p
+{
+    font-family: 'League Spartan', sans-serif;
+    line-height: 25px;
+}
+
+h3, h4
+{
+    font-weight: bold;
+    
+}
+
+h3
+{
+    font-size: 12px;
+    word-spacing: 2.6;
+}
+
+h4
+{
+    font-size: 11px;
+    word-spacing: 1;
+}
+
+p
+{
+    
+    font-size: 14px;
+    line-height: 25px;
+}
+
+body
+{
+    background-color: #070724;
+    color: #ffffff;
+}
+
+
+.navBar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px #ffffff solid ;
+    
+    padding: 16px 24px;
+}
+
+.navLinks
+{
+display: flex;
+flex-direction: column;
+height: 100vh;
+margin: 0px 24px;
+}
+
+
+.logo
+{
+    display: inline-block;
+    font-size: 28px;  
+    text-transform: uppercase;
+}
+
+.navLinks li
+{
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.048);
+
+}
+
+.idk
+{
+    visibility: hidden;
+}
+
+.left
+{
+    display: flex;
+    align-items: center;
+}
+
+.circle
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+    border-radius: 100%;
+}
+
+.navLinks a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1.36px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+#mercury .circle
+{
+    background-color: #def4fc;
+}
+
+#venus .circle
+{
+    background-color: #F7CC7F;
+}
+
+#earth .circle
+{
+    background-color: #545BFE;
+}
+
+#mars .circle
+{
+   background-color: #FF6A45; 
+}
+
+#jupiter .circle
+{
+    background-color: #ECAD7A;
+}
+
+#saturn .circle
+{
+background-color: #FCCB6B;
+}
+
+#uranus .circle
+{
+    background-color: #65F0D5;
+}
+
+#neptune .circle
+{
+    background-color: #497EFA;
+}
+
+.arrow
+{
+    width: 4px;
+    height: 4px;
+    border-left: 1px white solid;
+    border-bottom: 1px white solid;
+    
+    transform: rotate(-135deg);
+}
