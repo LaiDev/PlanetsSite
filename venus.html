@@ -1,63 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="./script/script.js" defer></script>
+  <script src="./script/planetStructure.js"></script>
+  <script src="./script/planetSurface.js"></script>
+
   <title>Frontend Mentor | Planets fact site</title>
 </head>
+
 <body>
-  Venus
 
+
+
+  <nav>
+    <div class="navBar">
+      <div class="logo">The Planets</div>
+      <img src="./assets/icon-hamburger.svg" alt="Hamburger icon" onclick="toggleNavBar()">
+    </div>
+
+    <ul class="navLinks">
+      <li id="mercury">
+        <div class="left">
+          <div class="circle"></div>
+          <a href="index.html">Mercury</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="venus">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="venus.html">Venus</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="earth">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="earth.html">Earth</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="mars">
+        <div class="left">
+
+          <div class="circle"> </div>
+          <a href="mars.html">Mars</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="jupiter">
+        <div class="left">
+
+          <div class="circle"> </div>
+          <a href="jupiter.html">Jupiter</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="saturn">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="saturn.html">Saturn</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="uranus">
+        <div class="left">
+          <div class="circle"></div>
+          <a href="uranus.html">Uranus</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="neptune">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="neptune.html">Neptune</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <ul class = "planetNav">
+    <li>
+      <a class = "active" href="">Overview</a>
+    </li>
+    <li onclick="mercuryStructure()">
+      Structure
+    </li>
+    <li onclick="mercurySurface()">
+      Surface
+    </li>
+  </ul>
   <!-- Overview Content Start -->
+  <main>
+    <img id = "venusImg" class = "planet" src="./assets/planet-venus.svg" alt="Venus">
 
-  Venus is the second planet from the Sun. It is named after the 
-  Roman goddess of love and beauty. As the brightest natural object 
-  in Earth's night sky after the Moon, Venus can cast shadows and 
-  can be, on rare occasions, visible to the naked eye in broad daylight.
+    <section id="planetDescription">
+      <h1>Venus</h1>
+      <p> Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.</p>
+  
+        <span class="source">
+          <p>Source : <a href="https://en.wikipedia.org/wiki/Venus_(planet)">Wikipedia</a></p>
+        </span>
+    </section>
+  
+    <section id="facts">
+      <div class="fact">
+        <p>Rotation Time</p>
+        <p>243 Days</p>
+      </div>
+  
+      <div class="fact">
+        <p>Revolution Time</p>
+        <p>224.7 Days</p>
+      </div>
+  
+      <div class="fact">
+        <p>Radius</p>
+        <p>6,051.8Km</p>
+      </div>
+  
+      <div class="fact">
+        <p>Average Temp.</p>
+        <p>471°c</p>
+      </div>
+    </section>
+  
+    <!-- Overview Content End -->
+  
+  
+  </main>
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Venus -->
-
-  <!-- Overview Content End -->
-
-  <!-- Internal Structure Content Start -->
-
-  The similarity in size and density between Venus and Earth suggests 
-  they share a similar internal structure: a core, mantle, and crust. 
-  Like that of Earth, Venusian core is most likely at least partially 
-  liquid because the two planets have been cooling at about the same rate.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Venus#Internal_structure -->
-
-  <!-- Internal Structure Content End -->
-
-  <!-- Surface Geology Content Start -->
-
-  Much of the Venusian surface appears to have been shaped by volcanic activity. 
-  Venus has several times as many volcanoes as Earth, and it has 167 large 
-  volcanoes that are over 100 km (60 mi) across. The only volcanic complex 
-  of this size on Earth is the Big Island of Hawaii.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Venus#Surface_geology -->
-
-  <!-- Surface Geology Content End -->
-
-  01 Overview
-  02 Internal Structure
-  03 Surface Geology
-
-  Rotation Time
-  243 Days
-
-  Revolution Time
-  224.7 Days
-
-  Radius
-  6,051.8 KM
-
-  Average Temp.
-  471°c
+ 
 </body>
+
 </html>
