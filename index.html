@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="./style/style.css">
   <script src="./script/script.js" defer></script>
+  <script src="./script/planetStructure.js"></script>
 
   <title>Frontend Mentor | Planets fact site</title>
 </head>
@@ -94,8 +95,8 @@
     <li>
       <a class = "active" href="">Overview</a>
     </li>
-    <li>
-      <a href="">Structure</a>
+    <li onclick="mercuryStructure()">
+      Structure
     </li>
     <li>
       <a href="">Surface</a>
@@ -103,7 +104,7 @@
   </ul>
   <!-- Overview Content Start -->
   <main>
-    <img class = "planet" src="./assets/planet-mercury.svg" alt="Mercury">
+    <img id = "mercuryImg" class = "planet" src="./assets/planet-mercury.svg" alt="Mercury">
 
     <section id="planetDescription">
       <h1>Mercury</h1>
