@@ -56,6 +56,16 @@ p
     line-height: 25px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li
+{
+    list-style-type: none;
+}
+
 body
 {
     background-color: #070724;
@@ -69,10 +79,16 @@ body
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px #ffffff solid ;
+   
     
     padding: 16px 24px;
 }
+
+.navBar, .planetNav
+{
+    border-bottom: 1px #ffffff6c solid ;
+}
+
 
 .navLinks
 {
@@ -101,6 +117,7 @@ justify-content: space-between;
 }
 
 
+
 .left
 {
     display: flex;
@@ -117,8 +134,7 @@ justify-content: space-between;
 
 .navLinks a
 {
-    text-decoration: none;
-    color: white;
+    
     font-size: 25px;
     
     letter-spacing: 1.36px;
@@ -175,4 +191,12 @@ background-color: #FCCB6B;
     border-bottom: 1px white solid;
     
     transform: rotate(-135deg);
+}
+
+.planetNav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 52px;
 }
