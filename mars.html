@@ -1,63 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="./script/script.js" defer></script>
+  <script src="./script/planetStructure.js"></script>
+  <script src="./script/planetSurface.js"></script>
+
   <title>Frontend Mentor | Planets fact site</title>
 </head>
+
 <body>
-  Mars
 
+
+
+  <nav>
+    <div class="navBar">
+      <div class="logo">The Planets</div>
+      <img src="./assets/icon-hamburger.svg" alt="Hamburger icon" onclick="toggleNavBar()">
+    </div>
+
+    <ul class="navLinks">
+      <li id="mercury">
+        <div class="left">
+          <div class="circle"></div>
+          <a href="index.html">Mercury</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="venus">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="venus.html">Venus</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="earth">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="earth.html">Earth</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="mars">
+        <div class="left">
+
+          <div class="circle"> </div>
+          <a href="mars.html">Mars</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="jupiter">
+        <div class="left">
+
+          <div class="circle"> </div>
+          <a href="jupiter.html">Jupiter</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="saturn">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="saturn.html">Saturn</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="uranus">
+        <div class="left">
+          <div class="circle"></div>
+          <a href="uranus.html">Uranus</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="neptune">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="neptune.html">Neptune</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <ul class = "planetNav">
+    <li>
+      <a class = "active" href="">Overview</a>
+    </li>
+    <li onclick="mercuryStructure()">
+      Structure
+    </li>
+    <li onclick="mercurySurface()">
+      Surface
+    </li>
+  </ul>
   <!-- Overview Content Start -->
+  <main>
+    <img id = "marsImg" class = "planet" src="./assets/planet-mars.svg" alt="Mars">
 
-  Mars is the fourth planet from the Sun and the second-smallest planet 
-  in the Solar System, being larger than only Mercury. In English, Mars 
-  carries the name of the Roman god of war and is often referred to as 
-  the "Red Planet".
+    <section id="planetDescription">
+      <h1>Mars</h1>
+      <p> Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet".</p>
+  
+        <span class="source">
+          <p>Source : <a href="https://en.wikipedia.org/wiki/Mars_(planet)">Wikipedia</a></p>
+        </span>
+    </section>
+  
+    <section id="facts">
+      <div class="fact">
+        <p>Rotation Time</p>
+        <p>1.03 Days</p>
+      </div>
+  
+      <div class="fact">
+        <p>Revolution Time</p>
+        <p>1.88 Years</p>
+      </div>
+  
+      <div class="fact">
+        <p>Radius</p>
+        <p>3,389.5Km</p>
+      </div>
+  
+      <div class="fact">
+        <p>Average Temp.</p>
+        <p>-28°c</p>
+      </div>
+    </section>
+  
+    <!-- Overview Content End -->
+  
+  
+  </main>
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Mars -->
-
-  <!-- Overview Content End -->
-
-  <!-- Internal Structure Content Start -->
-
-  Like Earth, Mars has differentiated into a dense metallic core overlaid 
-  by less dense materials. Scientists initially determined that the core 
-  is at least partially liquid. Current models of its interior imply a 
-  core consisting primarily of iron and nickel with about 16–17% sulfur.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Mars#Internal_structure -->
-
-  <!-- Internal Structure Content End -->
-
-  <!-- Surface Geology Content Start -->
-
-  Mars is a terrestrial planet whose surface consists of minerals containing 
-  silicon and oxygen, metals, and other elements that typically make up rock. 
-  The surface is primarily composed of tholeiitic basalt, although parts are 
-  more silica-rich than typical basalt.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Mars#Surface_geology -->
-
-  <!-- Surface Geology Content End -->
-
-  01 Overview
-  02 Internal Structure
-  03 Surface Geology
-
-  Rotation Time
-  1.03 Days
-
-  Revolution Time
-  1.88 Years
-
-  Radius
-  3,389.5 KM
-
-  Average Temp.
-  -28°c
+ 
 </body>
+
 </html>
