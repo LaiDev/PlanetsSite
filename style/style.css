@@ -76,11 +76,9 @@ body
 
 .navLinks
 {
-display: flex;
-flex-direction: column;
 height: 100vh;
 margin: 44px 24px 0px 24px;
-
+display: none;
 }
 
 
