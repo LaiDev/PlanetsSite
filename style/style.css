@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-h1, h2, .logo
+h1, h2, .logo, .fact p:last-child
 {
     font-family: 'Antonio', sans-serif;
     font-weight: 600;
@@ -86,7 +86,7 @@ body
 
 .navBar, .planetNav
 {
-    border-bottom: 1px #ffffff6c solid ;
+    border-bottom: 1px #ffffff18 solid ;
 }
 
 
@@ -102,6 +102,10 @@ display: none;
 {
     display: inline-block;
     font-size: 28px;  
+    
+}
+
+.logo, h1, #facts {
     text-transform: uppercase;
 }
 
@@ -199,4 +203,116 @@ background-color: #FCCB6B;
     align-items: center;
     justify-content: space-evenly;
     height: 52px;
+}
+
+.planetNav a
+{
+    opacity: .5;
+}
+
+.planetNav .active
+{
+    opacity: 1;
+
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url("../assets/background-stars.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.planet
+{
+    width: 111px;
+    margin: 95px 0px 98px 0px;
+}
+
+#planetDescription
+{
+min-width: 327px;
+min-height: 235px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin: 0px 24px 28px  ;
+}
+
+#planetDescription h1
+{
+    
+    font-size: 40px;
+}
+
+#planetDescription p{
+   
+    line-height: 22px;
+margin-bottom: 32px;
+}
+
+.source
+{
+    font-size: 12px;
+    line-height: 25px;
+    opacity: 50%;
+}
+
+#facts
+{
+    margin: 0px 24px 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fact
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 327px;
+    height: 48px;
+    border: 1px rgba(255, 255, 255, 0.267) solid;
+    
+}
+
+.fact p 
+{
+    padding: 0px 24px;
+    
+}
+
+.fact p:first-child
+{
+    opacity: 50%;
+    letter-spacing: .73px;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 16;
+}
+
+.fact p:last-child
+{
+    letter-spacing: -.75px;
+    font-size: 20px;
+ 
+}
+
+.source a{
+    text-decoration: underline;
+}
+
+.surface, .structure
+{
+    display: none;
 }
