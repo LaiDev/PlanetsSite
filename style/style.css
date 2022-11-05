@@ -235,6 +235,15 @@ main
     margin: 95px 0px 98px 0px;
 }
 
+.geology
+{
+    display: none;
+    width: 75px;
+    position: absolute;
+    top: 300px;
+
+}
+
 #planetDescription
 {
 min-width: 327px;

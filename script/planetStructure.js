@@ -1,6 +1,13 @@
 
 let mercuryStructure = () => {
 
+
+    //Hides the geology marker
+    
+    let geologyImg = document.querySelector(".geology");
+    
+    geologyImg.style.display = "none"
+
 //Get a reference to the planet image and change it to the one showing the planet structure 
 
 let mercuryImg = document.querySelector("#mercuryImg");
