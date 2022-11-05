@@ -1,63 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="./script/script.js" defer></script>
+  <script src="./script/planetStructure.js"></script>
+  <script src="./script/planetSurface.js"></script>
+
   <title>Frontend Mentor | Planets fact site</title>
 </head>
+
 <body>
-  Earth
 
+
+
+  <nav>
+    <div class="navBar">
+      <div class="logo">The Planets</div>
+      <img src="./assets/icon-hamburger.svg" alt="Hamburger icon" onclick="toggleNavBar()">
+    </div>
+
+    <ul class="navLinks">
+      <li id="mercury">
+        <div class="left">
+          <div class="circle"></div>
+          <a href="index.html">Mercury</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="venus">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="venus.html">Venus</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="earth">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="earth.html">Earth</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="mars">
+        <div class="left">
+
+          <div class="circle"> </div>
+          <a href="mars.html">Mars</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="jupiter">
+        <div class="left">
+
+          <div class="circle"> </div>
+          <a href="jupiter.html">Jupiter</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="saturn">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="saturn.html">Saturn</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="uranus">
+        <div class="left">
+          <div class="circle"></div>
+          <a href="uranus.html">Uranus</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+      <li id="neptune">
+        <div class="left">
+
+          <div class="circle"></div>
+          <a href="neptune.html">Neptune</a>
+        </div>
+        <span class="arrow"></span>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <ul class = "planetNav">
+    <li>
+      <a class = "active" href="">Overview</a>
+    </li>
+    <li onclick="mercuryStructure()">
+      Structure
+    </li>
+    <li onclick="mercurySurface()">
+      Surface
+    </li>
+  </ul>
   <!-- Overview Content Start -->
+  <main>
+    <img id = "earthImg" class = "planet" src="./assets/planet-earth.svg" alt="Earth">
 
-  Third planet from the Sun and the only known planet to harbor life. 
-  About 29.2% of Earth's surface is land with remaining 70.8% is 
-  covered with water. Earth's distance from the Sun, physical properties 
-  and geological history have allowed life to evolve and thrive.
+    <section id="planetDescription">
+      <h1>Earth</h1>
+      <p> Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.</p>
+  
+        <span class="source">
+          <p>Source : <a href="https://en.wikipedia.org/wiki/Earth_(planet)">Wikipedia</a></p>
+        </span>
+    </section>
+  
+    <section id="facts">
+      <div class="fact">
+        <p>Rotation Time</p>
+        <p>0.99 Days</p>
+      </div>
+  
+      <div class="fact">
+        <p>Revolution Time</p>
+        <p>365.26 Days</p>
+      </div>
+  
+      <div class="fact">
+        <p>Radius</p>
+        <p>6,371Km</p>
+      </div>
+  
+      <div class="fact">
+        <p>Average Temp.</p>
+        <p>16°c</p>
+      </div>
+    </section>
+  
+    <!-- Overview Content End -->
+  
+  
+  </main>
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Earth -->
-
-  <!-- Overview Content End -->
-
-  <!-- Internal Structure Content Start -->
-
-  Earth's interior, like that of the other terrestrial planets, is divided 
-  into layers by their chemical or physical (rheological) properties. The 
-  outer layer is a chemically distinct silicate solid crust, which is 
-  underlain by a highly viscous solid mantle.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Earth#Internal_structure -->
-
-  <!-- Internal Structure Content End -->
-
-  <!-- Surface Geology Content Start -->
-
-  The total surface area of Earth is about 510 million km2. The continental 
-  crust consists of lower density material such as the igneous rocks granite 
-  and andesite. Less common is basalt, a denser volcanic rock that is the 
-  primary constituent of the ocean floors.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Earth#Surface -->
-
-  <!-- Surface Geology Content End -->
-
-  01 Overview
-  02 Internal Structure
-  03 Surface Geology
-
-  Rotation Time
-  0.99 Days
-
-  Revolution Time
-  365.26 Days
-
-  Radius
-  6,371 KM
-
-  Average Temp.
-  16°c
+ 
 </body>
+
 </html>
