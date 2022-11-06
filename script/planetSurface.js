@@ -64,3 +64,18 @@ let earthSurface = () => {
           planetDescription.innerText =
             "Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.";
         };
+
+        let jupiterSurface = () => {
+            showGeologyMarker();
+            
+              let jupiterImg = document.querySelector("#jupiterImg");
+            
+              jupiterImg.src = "../assets/planet-jupiter.svg";
+            
+              //Get a reference to the planet description and changes it to the text about the internal planet structure
+            
+              
+            
+              planetDescription.innerText =
+                "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.";
+            };

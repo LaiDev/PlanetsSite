@@ -56,3 +56,13 @@ let earthStructure = () => {
         
         planetDescription.innerText = "Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur."
         }
+
+        let jupiterStructure = () => {
+            hideGeologyMarker();
+            
+            let jupiterImg = document.querySelector("#jupiterImg");
+            
+            jupiter.src = "../assets/planet-jupiter-internal.svg";
+            
+            planetDescription.innerText = "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core."
+            }
