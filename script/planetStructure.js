@@ -36,3 +36,13 @@ venusImg.src = "../assets/planet-venus-internal.svg";
 planetDescription.innerText = "The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate."
 
 }
+
+let earthStructure = () => {
+    hideGeologyMarker();
+    
+    let earthImg = document.querySelector("#earthImg");
+    
+    earthImg.src = "../assets/planet-earth-internal.svg";
+    
+    planetDescription.innerText = "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle."
+    }
