@@ -94,3 +94,18 @@ let earthSurface = () => {
                   planetDescription.innerText =
                     "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust. ";
                 };
+
+                let uranusSurface = () => {
+                    showGeologyMarker();
+                    
+                      let uranusImg = document.querySelector("#uranusImg");
+                    
+                      uranusImg.src = "../assets/planet-uranus.svg";
+                    
+                      //Get a reference to the planet description and changes it to the text about the internal planet structure
+                    
+                      
+                    
+                      planetDescription.innerText =
+                        "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.";
+                    };

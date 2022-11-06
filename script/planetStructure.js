@@ -66,7 +66,7 @@ let earthStructure = () => {
             
             planetDescription.innerText = "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core."
             }
-            let saturnStructure = () => {
+          let saturnStructure = () => {
                 hideGeologyMarker();
                 
                 let saturnImg = document.querySelector("#saturnImg");
@@ -74,4 +74,14 @@ let earthStructure = () => {
                 saturnImg.src = "../assets/planet-saturn-internal.svg";
                 
                 planetDescription.innerText = "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass."
-                }
+                }  
+
+                let uranusStructure = () => {
+                    hideGeologyMarker();
+                    
+                    let uranusImg = document.querySelector("#uranusImg");
+                    
+                    uranusImg.src = "../assets/planet-uranus-internal.svg";
+                    
+                    planetDescription.innerText = "The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses."
+                    }
