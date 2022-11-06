@@ -85,3 +85,13 @@ let earthStructure = () => {
                     
                     planetDescription.innerText = "The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses."
                     }
+
+                    let neptuneStructure = () => {
+                        hideGeologyMarker();
+                        
+                        let neptuneImg = document.querySelector("#neptuneImg");
+                        
+                        neptuneImg.src = "../assets/planet-neptune-internal.svg";
+                        
+                        planetDescription.innerText = "Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. Increasing concentrations of methane, ammonia and water are found in the lower regions."
+                        }

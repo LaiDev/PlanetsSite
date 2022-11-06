@@ -109,3 +109,18 @@ let earthSurface = () => {
                       planetDescription.innerText =
                         "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.";
                     };
+
+                    let neptuneurface = () => {
+                        showGeologyMarker();
+                        
+                          let neptuneImg = document.querySelector("#neptuneImg");
+                        
+                          neptuneImg.src = "../assets/planet-neptune.svg";
+                        
+                          //Get a reference to the planet description and changes it to the text about the internal planet structure
+                        
+                          
+                        
+                          planetDescription.innerText =
+                            "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.";
+                        };
