@@ -49,3 +49,18 @@ let earthSurface = () => {
       planetDescription.innerText =
         "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.";
     };
+
+    let marsSurface = () => {
+        showGeologyMarker();
+        
+          let marsImg = document.querySelector("#marsImg");
+        
+          marsImg.src = "../assets/planet-mars.svg";
+        
+          //Get a reference to the planet description and changes it to the text about the internal planet structure
+        
+          
+        
+          planetDescription.innerText =
+            "Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.";
+        };

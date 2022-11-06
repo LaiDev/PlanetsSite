@@ -46,3 +46,13 @@ let earthStructure = () => {
     
     planetDescription.innerText = "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle."
     }
+
+    let marsStructure = () => {
+        hideGeologyMarker();
+        
+        let marsImg = document.querySelector("#marsImg");
+        
+        marsImg.src = "../assets/planet-mars-internal.svg";
+        
+        planetDescription.innerText = "Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur."
+        }
