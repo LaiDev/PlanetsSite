@@ -79,3 +79,18 @@ let earthSurface = () => {
               planetDescription.innerText =
                 "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.";
             };
+
+            let saturnSurface = () => {
+                showGeologyMarker();
+                
+                  let saturnImg = document.querySelector("#saturnImg");
+                
+                  saturnImg.src = "../assets/planet-saturn.svg";
+                
+                  //Get a reference to the planet description and changes it to the text about the internal planet structure
+                
+                  
+                
+                  planetDescription.innerText =
+                    "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust. ";
+                };
