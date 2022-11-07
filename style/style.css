@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-h1, h2, .logo, .fact p:last-child
+h1, h2, .logo, .fact p:last-child, span, a
 {
     font-family: 'Antonio', sans-serif;
     font-weight: 600;
@@ -72,6 +72,11 @@ body
     color: #ffffff;
 }
 
+.navLinks-desktop
+{
+    display: none;
+}
+
 
 .navBar
 {
@@ -79,7 +84,7 @@ body
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-   
+   z-index: 7;
     
     padding: 16px 24px;
 }
@@ -203,6 +208,7 @@ background-color: #FCCB6B;
     align-items: center;
     justify-content: space-evenly;
     height: 52px;
+    
 }
 
 .planetNav a
@@ -241,7 +247,6 @@ main
     width: 75px;
     position: absolute;
     top: 300px;
-
 }
 
 #planetDescription
@@ -324,4 +329,135 @@ margin-bottom: 32px;
 .surface, .structure
 {
     display: none;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.right
+{
+    display: none;
+}
+
+@media (min-width: 768px)
+{
+
+.navBar
+{
+  
+    flex-direction: column;
+
+   
+}
+
+.navLinks-desktop
+{
+
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+    width: 100%;
+    margin: 39px 51px 27px 51px;
+    max-width: 665px;
+}
+
+.navBar img
+{
+    display: none;
+}
+
+.planetNav
+{
+    display: none;
+}
+
+#planetDescription
+{
+    width: 666px;
+gap: 46px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leftFacts
+{
+  
+    max-width: 339px;
+    text-align: left;
+
+}
+
+.leftFacts h1
+{
+    font-size: 48px;
+}
+
+.rightFacts
+{
+    display: flex;
+ 
+}
+
+.planetNav-desktop
+{
+    text-transform: uppercase;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.planetNav-desktop li
+{
+border: 1px rgba(255, 255, 255, 0.329) solid;
+width: 281px;
+height: 40px;
+display: flex;
+align-items: center;
+}
+
+.planetNav-desktop li span:first-child
+{
+    margin: 0px 14px 0px 20px;
+}
+
+#facts
+{
+    flex-direction: row;
+}
+
+.fact
+{
+    width: 164px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fact p:first-child
+{
+   
+    padding: 0px;
+    margin-top: 16px;
+   margin-bottom: 37px;
+    line-height: 0px;
+}
+
+.fact p:last-child
+{
+    line-height: 0px;
+    height: 31px;
+   
+}
+
 }
