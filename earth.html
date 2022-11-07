@@ -22,6 +22,35 @@
     <div class="navBar">
       <div class="logo">The Planets</div>
       <img src="./assets/icon-hamburger.svg" alt="Hamburger icon" onclick="toggleNavBar()">
+      <ul class="navLinks-desktop">
+        <li id="mercury">
+            <a href="index.html">Mercury</a>
+        </li>
+        <li id="venus" href="venus.html">
+            <a href="venus.html">Venus</a>
+        </li>
+        <li id="earth">
+            <a href="earth.html">Earth</a>
+        </li>
+        <li id="mars">
+          <div class="left">
+        <a href="mars.html">Mars</a>
+        </li>
+        <li id="jupiter">
+            <a href="jupiter.html">Jupiter</a>
+        </li>
+        <li id="saturn">
+            <a href="saturn.html">Saturn</a>
+        </li>
+        <li id="uranus">
+            <a href="uranus.html">Uranus</a>
+          
+        </li>
+        <li id="neptune">
+            <a href="neptune.html">Neptune</a>
+        </li>
+  
+      </ul>
     </div>
 
     <ul class="navLinks">
@@ -110,13 +139,32 @@
     <img class = "geology" src="./assets/geology-earth.png" alt="">
 
     <section id="planetDescription">
-      <h1>Earth</h1>
-      <p> Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.</p>
-  
+      <div class="leftFacts">
+
+        <h1>Earth</h1>
+        <p> Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.</p>
+        
         <span class="source">
           <p>Source : <a href="https://en.wikipedia.org/wiki/Earth_(planet)">Wikipedia</a></p>
         </span>
-    </section>
+      </div>
+      <div class="rightFacts">
+        <ul class="planetNav-desktop">
+          <li >
+            <span>01</span>
+            <a class = "active" href="">Overview</a>
+          </li>
+          <li>
+            <span>02</span>
+            <span onclick="earthStructure()">Internal Structure</span>
+          </li>
+          <li>
+            <span>03</span>
+            <span onclick="earthSurface()" >Surface Geology</span>
+          </li>
+        </ul>         
+        </div>
+      </section>
   
     <section id="facts">
       <div class="fact">

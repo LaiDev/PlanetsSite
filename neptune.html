@@ -22,6 +22,35 @@
     <div class="navBar">
       <div class="logo">The Planets</div>
       <img src="./assets/icon-hamburger.svg" alt="Hamburger icon" onclick="toggleNavBar()">
+      <ul class="navLinks-desktop">
+        <li id="mercury">
+            <a href="index.html">Mercury</a>
+        </li>
+        <li id="venus" href="venus.html">
+            <a href="venus.html">Venus</a>
+        </li>
+        <li id="earth">
+            <a href="earth.html">Earth</a>
+        </li>
+        <li id="mars">
+          <div class="left">
+        <a href="mars.html">Mars</a>
+        </li>
+        <li id="jupiter">
+            <a href="jupiter.html">Jupiter</a>
+        </li>
+        <li id="saturn">
+            <a href="saturn.html">Saturn</a>
+        </li>
+        <li id="uranus">
+            <a href="uranus.html">Uranus</a>
+          
+        </li>
+        <li id="neptune">
+            <a href="neptune.html">Neptune</a>
+        </li>
+  
+      </ul>
     </div>
 
     <ul class="navLinks">
@@ -110,13 +139,32 @@
     <img class = "geology" src="./assets/geology-neptune.png" alt="">
 
     <section id="planetDescription">
-      <h1>Neptune</h1>
-      <p> Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.</p>
-  
+      <div class="leftFacts">
+
+        <h1>Neptune</h1>
+        <p> Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.</p>
+        
         <span class="source">
           <p>Source : <a href="https://en.wikipedia.org/wiki/Neptune_(planet)">Wikipedia</a></p>
         </span>
-    </section>
+      </div>
+      <div class="rightFacts">
+        <ul class="planetNav-desktop">
+          <li >
+            <span>01</span>
+            <a class = "active" href="">Overview</a>
+          </li>
+          <li>
+            <span>02</span>
+            <span onclick="neptuneStructure()">Internal Structure</span>
+          </li>
+          <li>
+            <span>03</span>
+            <span onclick="neptuneSurface()" >Surface Geology</span>
+          </li>
+        </ul>         
+        </div>
+      </section>
   
     <section id="facts">
       <div class="fact">

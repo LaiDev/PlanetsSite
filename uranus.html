@@ -22,6 +22,35 @@
     <div class="navBar">
       <div class="logo">The Planets</div>
       <img src="./assets/icon-hamburger.svg" alt="Hamburger icon" onclick="toggleNavBar()">
+      <ul class="navLinks-desktop">
+        <li id="mercury">
+            <a href="index.html">Mercury</a>
+        </li>
+        <li id="venus" href="venus.html">
+            <a href="venus.html">Venus</a>
+        </li>
+        <li id="earth">
+            <a href="earth.html">Earth</a>
+        </li>
+        <li id="mars">
+          <div class="left">
+        <a href="mars.html">Mars</a>
+        </li>
+        <li id="jupiter">
+            <a href="jupiter.html">Jupiter</a>
+        </li>
+        <li id="saturn">
+            <a href="saturn.html">Saturn</a>
+        </li>
+        <li id="uranus">
+            <a href="uranus.html">Uranus</a>
+          
+        </li>
+        <li id="neptune">
+            <a href="neptune.html">Neptune</a>
+        </li>
+  
+      </ul>
     </div>
 
     <ul class="navLinks">
@@ -110,12 +139,30 @@
     <img class = "geology" src="./assets/geology-uranus.png" alt="">
 
     <section id="planetDescription">
+      <div class="leftFacts">
       <h1>Uranus</h1>
       <p> Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.</p>
   
         <span class="source">
           <p>Source : <a href="https://en.wikipedia.org/wiki/Saturn_(planet)">Wikipedia</a></p>
         </span>
+      </div>
+        <div class="rightFacts">
+          <ul class="planetNav-desktop">
+            <li >
+              <span>01</span>
+              <a class = "active" href="">Overview</a>
+            </li>
+            <li>
+              <span>02</span>
+              <span onclick="uranusStructure()">Internal Structure</span>
+            </li>
+            <li>
+              <span>03</span>
+              <span onclick="uranusSurface()" >Surface Geology</span>
+            </li>
+          </ul>         
+          </div>
     </section>
   
     <section id="facts">
