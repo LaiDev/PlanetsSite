@@ -241,6 +241,40 @@ main
     margin: 95px 0px 98px 0px;
 }
 
+#venusImg
+{
+    width: 154px;
+}
+
+#earthImg
+{
+    width: 173px;
+}
+
+#marsImg{
+    width: 129px;
+}
+
+#jupiterImg
+{
+    width: 224px;
+}
+
+#saturnImg
+{
+    width: 256px;
+}
+
+#uranusImg
+{
+    width: 176px;
+}
+
+#neptuneImg
+{
+    width: 173px;
+}
+
 .geology
 {
     display: none;
@@ -342,6 +376,11 @@ margin-bottom: 32px;
     display: none;
 }
 
+.planetNav-desktop
+{
+    display: none;
+}
+
 @media (min-width: 768px)
 {
 
@@ -368,6 +407,46 @@ margin-bottom: 32px;
 .navBar img
 {
     display: none;
+}
+
+#mercuryImg
+{
+    width: 184px;
+}
+
+#venusImg
+{
+    width: 253px;
+}
+
+#earthImg
+{
+    width: 285px;
+}
+
+#marsImg
+{
+    width: 213px;
+}
+
+#jupiterImg
+{
+    width: 369px;
+}
+
+#saturnImg
+{
+    width: 422px;
+}
+
+#uranusImg
+{
+    width: 290px;
+}
+
+#neptuneImg
+{
+    width: 285px;
 }
 
 .planetNav
