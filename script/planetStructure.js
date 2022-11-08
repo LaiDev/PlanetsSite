@@ -1,5 +1,10 @@
-let planetDescription =
-  document.querySelector("#planetDescription p" );
+let planetDescription = document.querySelector("#planetDescription p");
+
+let overviewNav = document.querySelector(".planetNav").childNodes[1];
+
+let structureNav = document.querySelector(".planetNav").childNodes[3];
+
+let surfaceNav = document.querySelector(".planetNav").childNodes[5];
 
 let hideGeologyMarker = () => {
   //Hides the geology marker
@@ -9,10 +14,21 @@ let hideGeologyMarker = () => {
   geologyImg.style.display = "none";
 };
 
+let addStructureUnderline = () => {
+  overviewNav.classList.remove("active");
+  structureNav.classList.add("active");
+
+  if (surfaceNav.classList.contains("active")) {
+    surfaceNav.classList.remove("active");
+  }
+};
+
 let mercuryStructure = () => {
   //Get a reference to the planet image and change it to the one showing the planet structure
 
-hideGeologyMarker();
+  addStructureUnderline();
+
+  hideGeologyMarker();
 
   let mercuryImg = document.querySelector("#mercuryImg");
 
@@ -20,13 +36,12 @@ hideGeologyMarker();
 
   //Get a reference to the planet description and change it to the text about the internal planet structure
 
-  
-
   planetDescription.innerText =
     "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.";
 };
 
 let venusStructure = () => {
+  addStructureUnderline();
   hideGeologyMarker();
 
   let venusImg = document.querySelector("#venusImg");
@@ -38,6 +53,7 @@ let venusStructure = () => {
 };
 
 let earthStructure = () => {
+  addStructureUnderline();
   hideGeologyMarker();
 
   let earthImg = document.querySelector("#earthImg");
@@ -49,6 +65,7 @@ let earthStructure = () => {
 };
 
 let marsStructure = () => {
+  addStructureUnderline();
   hideGeologyMarker();
 
   let marsImg = document.querySelector("#marsImg");
@@ -60,6 +77,7 @@ let marsStructure = () => {
 };
 
 let jupiterStructure = () => {
+  addStructureUnderline();
   hideGeologyMarker();
 
   let jupiterImg = document.querySelector("#jupiterImg");
@@ -70,6 +88,7 @@ let jupiterStructure = () => {
     "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core.";
 };
 let saturnStructure = () => {
+  addStructureUnderline();
   hideGeologyMarker();
 
   let saturnImg = document.querySelector("#saturnImg");
@@ -81,6 +100,7 @@ let saturnStructure = () => {
 };
 
 let uranusStructure = () => {
+  addStructureUnderline();
   hideGeologyMarker();
 
   let uranusImg = document.querySelector("#uranusImg");
@@ -92,6 +112,7 @@ let uranusStructure = () => {
 };
 
 let neptuneStructure = () => {
+  addStructureUnderline();
   hideGeologyMarker();
 
   let neptuneImg = document.querySelector("#neptuneImg");
