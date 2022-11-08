@@ -214,7 +214,7 @@ background-color: #FCCB6B;
     
 }
 
-.planetNav a
+.planetNav li
 {
     opacity: .5;
 }
@@ -222,8 +222,13 @@ background-color: #FCCB6B;
 .planetNav .active
 {
     opacity: 1;
-
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 20px;
+    text-decoration-color: #419EBB;
 }
+
+
 
 main
 {
