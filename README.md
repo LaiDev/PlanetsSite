@@ -26,6 +26,8 @@ Users should be able to:
 ### Screenshots
 
 ![Desktop Site](./assets/Desktop%20Site.png) 
+![Tablet Site](./assets/Tablet%20Site.png) 
+![Mobile Site](./assets/Mobile%20Site.png) 
 
 ### Links
 
