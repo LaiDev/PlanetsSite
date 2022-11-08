@@ -25,10 +25,11 @@ h2
     word-spacing: -1.5;
 }
 
-h3, h4, p
+h3, h4, p, .planetNav-desktop li span, .planetNav-desktop li a
 {
     font-family: 'League Spartan', sans-serif;
     line-height: 25px;
+    font-weight: 500;
 }
 
 h3, h4
@@ -551,6 +552,136 @@ align-items: center;
 .geology
 {
     top: 400px;
+}
+
+}
+
+@media (min-width: 1440px)
+
+{
+.navBar
+{
+    flex-direction: row;
+    padding-bottom: 0px;
+}
+
+.desktopWrapper
+{
+ 
+    margin-top: 126px;
+    margin-bottom: 87px;
+    flex-direction: row;
+    width: 75%;
+justify-content: space-around;
+
+}
+
+.planet
+{
+    align-self: center;
+    justify-self: center;
+}
+
+#planetDescription
+{
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 0px;
+    width: 350px;
+gap: 30px;
+
+    
+}
+
+.leftFacts
+{
+    height: 326px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#planetDescription p
+{
+    margin-bottom: 0px;
+}
+
+
+
+
+#mercuryImg
+{
+    width: 290px;
+}
+
+#venusImg
+{
+    width: 400px;
+}
+
+#earthImg
+{
+    width: 450px;
+}
+
+#marsImg
+{
+    width: 336px;
+}
+
+#jupiterImg
+{
+    width: 582px;
+}
+
+#saturnImg
+{
+    width: 666.09;
+}
+
+#uranusImg
+{
+    width: 458px;
+}
+
+#neptuneImg
+{
+    width: 450px;
+}
+
+#planetDescription h1
+{
+    font-size: 80px;
+}
+
+
+
+.fact
+{
+    width: 255px;
+    height: 128px;
+    align-items: flex-start;
+}
+
+.fact p:first-child
+{
+    padding-left: 24px;
+    font-size: 11px;
+}
+
+.fact p:last-child
+{
+    font-size: 40px;
+}
+
+.geology
+{
+    top: 500px;
+    left: 400px;
 }
 
 }
