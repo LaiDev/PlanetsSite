@@ -6,7 +6,11 @@ This is a solution to the [Planets fact site challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
 
 ## Overview
@@ -19,7 +23,25 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
+### Screenshots
+
+![Desktop Site](./assets/Desktop%20Site.png) 
+
 ### Links
 
 - Live Site URL: [Site](https://whimsical-sprite-75e83c.netlify.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Vanilla JavaScript
+- Flexbox
+- Mobile-first workflow
+
+## Author
+
+- Frontend Mentor - [@LaiDev](https://www.frontendmentor.io/profile/LaiDev)
+
 
