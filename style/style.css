@@ -298,6 +298,19 @@ main
     top: 300px;
 }
 
+#earthMarker, #neptuneMarker, #uranusMarker, #venusMarker
+{
+    top: 325px;
+}
+
+#jupiterMarker, #saturnMarker
+{
+    top: 350px;
+}
+
+
+
+
 #planetDescription
 {
 min-width: 327px;
@@ -470,6 +483,34 @@ margin-bottom: 32px;
 {
     display: none;
 }
+
+#venusMarker
+{
+    top: 450px;
+}
+
+#earthMarker, #uranusMarker, #neptuneMarker
+{
+    top: 490px;
+}
+
+#marsMarker
+{
+    top: 425px;
+}
+
+#jupiterMarker
+{
+    top: 570px;
+}
+
+#saturnMarker
+{
+    top: 540px;
+}
+
+
+
 
 #planetDescription
 {
@@ -659,6 +700,43 @@ gap: 30px;
 {
     width: 450px;
 }
+
+#mercuryMarker
+{
+    top: 590px;
+}
+
+#venusMarker
+{
+    top: 680px;
+    left: 429px;
+}
+
+#earthMarker, #uranusMarker, #neptuneMarker
+{
+    top: 720px;
+    left: 440px;
+}
+
+#marsMarker
+{
+    top: 620px;
+    left: 410px;
+}
+
+#jupiterMarker
+{
+    top: 860px;
+    left: 470px;
+}
+
+#saturnMarker
+{
+    top: 600px;
+    left: 430px;
+}
+
+
 
 #planetDescription h1
 {
