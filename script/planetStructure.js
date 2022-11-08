@@ -12,6 +12,8 @@ let hideGeologyMarker = () => {
 let mercuryStructure = () => {
   //Get a reference to the planet image and change it to the one showing the planet structure
 
+hideGeologyMarker();
+
   let mercuryImg = document.querySelector("#mercuryImg");
 
   mercuryImg.src = "../assets/planet-mercury-internal.svg";
