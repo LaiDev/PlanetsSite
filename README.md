@@ -23,11 +23,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
-### Screenshots
+### Screenshot
 
 ![Desktop Site](./assets/Desktop%20Site.png) 
-![Tablet Site](./assets/Tablet%20Site.png) 
-![Mobile Site](./assets/Mobile%20Site.png) 
+
 
 ### Links
 
