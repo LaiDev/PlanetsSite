@@ -136,42 +136,44 @@
   </ul>
   <!-- Overview Content Start -->
   <main>
-    <img id = "mercuryImg" class = "planet" src="./assets/planet-mercury.svg" alt="Mercury">
-
-    <img class = "geology" src="./assets/geology-mercury.png" alt="">
-
-    <section id="planetDescription">
-      <div class="leftFacts">
-        <h1>Mercury</h1>
-        <p> Mercury is the smallest planet in the Solar System and the closest
-          to the Sun. Its orbit around the Sun takes 87.97 Earth days, the
-          shortest of all the Sun's planets. Mercury is one of four terrestrial
-          planets in the Solar System, and is a rocky body like Earth.</p>
-          
-          <span class="source">
-            <p>Source : <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a></p>
-          </span>
-        </div>
-        <div class="rightFacts">
-          <ul class="planetNav-desktop">
-            <li >
-              <span>01</span>
-              <a class = "active" href="">Overview</a>
-            </li>
-            <li>
-              <span>02</span>
-              <span onclick="mercuryStructure()">Internal Structure</span>
-            </li>
-            <li>
-              <span>03</span>
-              <span onclick="mercurySurface()" >Surface Geology</span>
-            </li>
-          </ul>         
+    <div class="desktopWrapper">
+      <img id = "mercuryImg" class = "planet" src="./assets/planet-mercury.svg" alt="Mercury">
+      
+      <img class = "geology" src="./assets/geology-mercury.png" alt="">
+      
+      <section id="planetDescription">
+        <div class="leftFacts">
+          <h1>Mercury</h1>
+          <p> Mercury is the smallest planet in the Solar System and the closest
+            to the Sun. Its orbit around the Sun takes 87.97 Earth days, the
+            shortest of all the Sun's planets. Mercury is one of four terrestrial
+            planets in the Solar System, and is a rocky body like Earth.</p>
+            
+            <span class="source">
+              <p>Source : <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a></p>
+            </span>
           </div>
-         
+          <div class="rightFacts">
+            <ul class="planetNav-desktop">
+              <li >
+                <span>01</span>
+                <a class = "active" href="">Overview</a>
+              </li>
+              <li>
+                <span>02</span>
+                <span onclick="mercuryStructure()">Internal Structure</span>
+              </li>
+              <li>
+                <span>03</span>
+                <span onclick="mercurySurface()" >Surface Geology</span>
+              </li>
+            </ul>         
+          </div>
+          
         </div>
-        </section>
-  
+      </section>
+    </div>
+      
     <section id="facts">
       <div class="fact">
         <p>Rotation Time</p>
